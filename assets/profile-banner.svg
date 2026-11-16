@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330" role="img" aria-label="Nguyen Do Quang Sang, Frontend Developer, UI Engineering, Interactive 3D">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090a13"/><stop offset="0.53" stop-color="#11152b"/><stop offset="1" stop-color="#1a1236"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fb7185"/><stop offset="0.6" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <radialGradient id="orb"><stop stop-color="#8b5cf6" stop-opacity=".42"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1100" height="330" rx="20" fill="url(#bg)"/>
+  <rect width="1100" height="330" rx="20" fill="url(#grid)"/>
+  <ellipse cx="891" cy="155" rx="240" ry="235" fill="url(#orb)"/>
+  <path d="M0 315 H1100" stroke="url(#accent)" stroke-width="5"/>
+  <g transform="translate(830 70)" fill="none" stroke-width="2">
+    <path d="M105 0 L210 60 L210 180 L105 240 L0 180 L0 60 Z" stroke="#a78bfa" stroke-opacity=".45"/>
+    <path d="M105 15 L195 67 L195 173 L105 225 L15 173 L15 67 Z" stroke="#22d3ee" stroke-opacity=".65"/>
+    <path d="M105 15 V225 M15 67 L195 173 M195 67 L15 173" stroke="#a78bfa" stroke-opacity=".45"/>
+    <circle cx="105" cy="120" r="35" stroke="#fb7185" stroke-opacity=".85"/>
+    <circle cx="105" cy="120" r="9" fill="#fb7185" stroke="none"/>
+    <circle cx="105" cy="120" r="49" stroke="#22d3ee" stroke-opacity=".2"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="65" y="69" font-size="17" font-weight="700" letter-spacing="4" fill="#fb7185">HELLO WORLD / PORTFOLIO</text>
+    <text x="65" y="149" font-size="55" font-weight="800" letter-spacing="-1.2" fill="#f8fafc">NGUYEN DO</text>
+    <text x="65" y="209" font-size="55" font-weight="800" letter-spacing="-1.2" fill="#f8fafc">QUANG SANG</text>
+    <rect x="65" y="231" width="515" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="65" y="268" font-size="20" font-weight="600" fill="#d1d5db">Frontend Developer</text>
+    <circle cx="299" cy="261" r="3.5" fill="#fb7185"/>
+    <text x="315" y="268" font-size="20" font-weight="600" fill="#d1d5db">UI Engineering</text>
+    <circle cx="478" cy="261" r="3.5" fill="#a78bfa"/>
+    <text x="494" y="268" font-size="20" font-weight="600" fill="#d1d5db">Interactive 3D</text>
+  </g>
+</svg>
