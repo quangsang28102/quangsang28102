@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Theory Exam Admin React 19 TanStack shadcn/ui dashboard">
+  <defs>
+    <linearGradient id="bg-admin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0c1021"/>
+      <stop offset="1" stop-color="#161b36"/>
+    </linearGradient>
+    <linearGradient id="accent-admin" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="bar-grad" x1="0" y1="1" x2="0" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg-admin)" rx="22"/>
+  <g fill="none" stroke="#64748b" stroke-width="2" opacity=".18">
+    <path d="M0 56h800M0 112h800M0 168h800M0 224h800M0 280h800M0 336h800M0 392h800"/>
+    <path d="M80 0v450M160 0v450M240 0v450M320 0v450M400 0v450M480 0v450M560 0v450M640 0v450M720 0v450"/>
+  </g>
+  
+  <!-- Dashboard UI Mockup Frame -->
+  <g transform="translate(180, 48)">
+    <rect width="440" height="230" rx="14" fill="#151b33" stroke="url(#accent-admin)" stroke-width="3"/>
+    <!-- Window controls -->
+    <circle cx="24" cy="22" r="6" fill="#f43f5e"/>
+    <circle cx="44" cy="22" r="6" fill="#fbbf24"/>
+    <circle cx="64" cy="22" r="6" fill="#34d399"/>
+    <line x1="0" y1="42" x2="440" y2="42" stroke="#2a3356" stroke-width="2"/>
+    
+    <!-- Sidebar -->
+    <rect x="0" y="42" width="95" height="188" fill="#101528" rx="0"/>
+    <rect x="14" y="58" width="67" height="12" rx="4" fill="#38bdf8" opacity=".8"/>
+    <rect x="14" y="80" width="55" height="10" rx="3" fill="#64748b" opacity=".5"/>
+    <rect x="14" y="98" width="60" height="10" rx="3" fill="#64748b" opacity=".5"/>
+    <rect x="14" y="116" width="50" height="10" rx="3" fill="#64748b" opacity=".5"/>
+    <line x1="95" y1="42" x2="95" y2="230" stroke="#2a3356" stroke-width="2"/>
+    
+    <!-- Main content cards -->
+    <rect x="112" y="56" width="96" height="52" rx="8" fill="#1e2646"/>
+    <rect x="122" y="66" width="40" height="8" rx="3" fill="#94a3b8"/>
+    <text x="122" y="94" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#38bdf8">98.4%</text>
+
+    <rect x="220" y="56" width="96" height="52" rx="8" fill="#1e2646"/>
+    <rect x="230" y="66" width="45" height="8" rx="3" fill="#94a3b8"/>
+    <text x="230" y="94" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#34d399">1,420</text>
+
+    <rect x="328" y="56" width="96" height="52" rx="8" fill="#1e2646"/>
+    <rect x="338" y="66" width="42" height="8" rx="3" fill="#94a3b8"/>
+    <text x="338" y="94" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#c084fc">48 Batches</text>
+
+    <!-- Mini chart bars -->
+    <rect x="112" y="122" width="312" height="92" rx="8" fill="#1a213d"/>
+    <rect x="135" y="176" width="18" height="26" rx="4" fill="url(#bar-grad)"/>
+    <rect x="170" y="156" width="18" height="46" rx="4" fill="url(#bar-grad)"/>
+    <rect x="205" y="142" width="18" height="60" rx="4" fill="url(#bar-grad)"/>
+    <rect x="240" y="162" width="18" height="40" rx="4" fill="url(#bar-grad)"/>
+    <rect x="275" y="136" width="18" height="66" rx="4" fill="url(#bar-grad)"/>
+    <rect x="310" y="148" width="18" height="54" rx="4" fill="url(#bar-grad)"/>
+    <rect x="345" y="130" width="18" height="72" rx="4" fill="url(#bar-grad)"/>
+    <rect x="380" y="152" width="18" height="50" rx="4" fill="url(#bar-grad)"/>
+  </g>
+
+  <text x="400" y="335" fill="#f8fafc" font-size="38" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle">THEORY EXAM ADMIN</text>
+  <text x="400" y="377" fill="#cbd5e1" font-size="22" font-family="Arial, sans-serif" text-anchor="middle">React 19  ·  TanStack Router &amp; Query  ·  shadcn/ui</text>
+</svg>
